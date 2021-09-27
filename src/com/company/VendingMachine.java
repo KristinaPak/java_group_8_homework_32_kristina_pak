@@ -125,9 +125,9 @@ public class VendingMachine {
         System.out.print(String.format("У вас сейчас %s на сколько хотите пополнить ", money));
         Scanner s = new Scanner(System.in);
 
-       // Integer moneyOne = s.nextInt();
-        //money = money + moneyOne;
-        //System.out.println("-------------------Вы пополнили "+ money + "---------------");
+        Integer moneyOne = s.nextInt();
+        money = money + moneyOne;
+        System.out.println("-------------------Вы пополнили "+ money + "---------------");
     }
 
 }
