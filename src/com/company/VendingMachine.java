@@ -112,12 +112,12 @@ public class VendingMachine {
                 menu();
                 actions();
             } else {
-                //throw new  IllegalArgumentException("Введен неверный символ");
+                throw new  IllegalArgumentException("Введен неверный символ");
             }
         } else if(h == 3) {
             System.out.println("Спасибо, приходите еще");
         } else{
-            //throw new  IllegalArgumentException("Введен неверный символ");
+            throw new  IllegalArgumentException("Введен неверный символ");
         }
     }
 
