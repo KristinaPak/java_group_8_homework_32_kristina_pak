@@ -17,7 +17,7 @@ public class VendingMachine {
         System.out.println(String.format(f, GOODS.CHEEPS.getDescription(), GOODS.CHEEPS.getPrice(), GOODS.CHEEPS.getAmount()));
         System.out.println(String.format(f, GOODS.CHOCOLATE_BAR.getDescription(), GOODS.CHOCOLATE_BAR.getPrice(), GOODS.CHOCOLATE_BAR.getAmount()));
         System.out.println("+-------------------------+----------+----------+");
-        //actions();
+        actions();
     }
 
     static void actions() throws IllegalArgumentException {
